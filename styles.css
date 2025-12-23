@@ -106,3 +106,29 @@ body {
   .page-title { font-size: 44px; }
   .nav a { margin-left: 12px; }
 }
+
+.paper-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.paper-list li {
+  margin: 18px 0;
+  font-size: 22px;
+}
+
+.paper-title {
+  font-style: italic;  /* remove this line if you do NOT want italics */
+}
+
+.paper-link {
+  margin-left: 10px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.paper-link:hover {
+  text-decoration: underline;
+}
